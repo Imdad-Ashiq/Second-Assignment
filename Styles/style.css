@@ -76,10 +76,13 @@ h1{
 .product-pic img{
     height: 256px;
     width: 300px;
-    padding: 15px;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 .product-details{
-    padding: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 #second-h4{
     text-align: center;
@@ -100,12 +103,64 @@ color: #E02C6D;
 }
 footer{
     background-color: rgb(1, 10, 37);
-    text-align: center;
     color: white;
 }
 #footer-header{
-    padding-top: 50px;
+    padding-top: 20px;
+    text-align: center;
 }
 #footer-details{
-    padding-bottom: 50px;
+    padding-bottom: 10px;
+}
+.copyright{
+    text-align: center;
+}
+.fas{
+    color: goldenrod;
+    font-size: 12px;
+}
+span{
+    padding-left: 10px;
+    font-size: 12px;
+}
+.price{
+    font-size: 16px;
+}
+.shipping-details{
+    font-size: 12px;
+}
+.fa-long-arrow-alt-right{
+    color: white;
+}
+.fa-arrow-right{
+    color: #E02C6D ;
+}
+.last-section{
+    display: flex;
+    width: 100%;
+    margin-top: 80px;
+    margin-bottom: 70px;
+}
+.stock-photo{
+    width: 50%;
+    padding-left: 50px;
+}
+.stock-details{
+    width: 50%;
+    padding-left: 50px;
+}
+.stock-details h2{
+    font-weight: 600;
+}
+.stock-details a{
+    color: white;
+    background-color: #E02C6D ;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+.social-icons{
+    text-align: center;
+}
+.social-icons a{
+    color: white;
 }
